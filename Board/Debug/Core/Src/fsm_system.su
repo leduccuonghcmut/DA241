@@ -1,0 +1,2 @@
+fsm_system.c:14:6:init_variables	8	static
+fsm_system.c:20:6:fsm_system	8	static
