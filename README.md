@@ -1,5 +1,5 @@
-# Tên Dự Án
-Một mô tả ngắn gọn và súc tích về dự án của bạn.
+# Đồ án thiết kế luận lý - Học kì 241
+Hệ thống giám sát điều khiển nhiệt độ, độ ẩm và Web Server
 
 ## Mục Lục
 - [Giới Thiệu](#giới-thiệu)
@@ -11,15 +11,14 @@ Một mô tả ngắn gọn và súc tích về dự án của bạn.
 - [Thông Tin Liên Hệ](#thông-tin-liên-hệ)
 
 ## Giới Thiệu
-Mô tả ngắn về mục đích của dự án, lý do bạn tạo ra nó, và vấn đề mà nó giải quyết.
+Hệ thống giám sát và điều khiển nhiệt độ, độ ẩm dựa trên việc sử dụng các thành phần chính bao gồm cảm biến DHT20, bộ vi điều khiển STM32, module ESP32, quạt mini, LED báo hiệu và các giao tiếp như UART, I2C, HTTP. Hệ thống này có khả năng đo đạc các thông số môi trường, hiển thị dữ liệu, điều khiển thiết bị ngoại vi, và truyền tải dữ liệu đến web server.
+
 
 ## Yêu Cầu Hệ Thống
-- Hệ điều hành: Windows/Linux/MacOS
-- Ngôn ngữ: Python 3.8+, Node.js, v.v.
-- Các công cụ/Thư viện cần thiết:
-  - `numpy`
-  - `pandas`
-  - ...
+- Các công cụ sử dụng
+  - `STM23CubeIDE`
+  - `AdruinoIDE`
+  - Có thể sử dụng các công cụ tương đương
 
 ## Cài Đặt
 Hướng dẫn chi tiết cách cài đặt dự án.
@@ -28,8 +27,4 @@ Hướng dẫn chi tiết cách cài đặt dự án.
 # Clone repository
 git clone https://github.com/username/project-name.git
 
-# Di chuyển vào thư mục dự án
-cd project-name
 
-# Cài đặt thư viện cần thiết
-pip install -r requirements.txt
