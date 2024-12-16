@@ -28,8 +28,8 @@ Hướng dẫn chi tiết cách cài đặt dự án.
 # Clone repository
 git clone https://github.com/leduccuonghcmut/DA241.git
 
-# Nối mạch như trong bài report
-
+# Nối mạch như trong bài báo cáo
+Đây là bài báo cáo: https://drive.google.com/file/d/10SC3DxzAmb5KdVFWZPMtZrfbtD8_YNqZ/view?usp=sharing
 # Nạp code
 Nạp code STM32
 Nạp code ESP32
