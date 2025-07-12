@@ -1,9 +1,3 @@
-/*
- * fsm_system.h
- *
- *  Created on: Dec 7, 2024
- *      Author: Duy
- */
 #include "sofware_timer.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,4 +16,4 @@ extern int temp1;
 void fsm_system();
 void init_variables();
 
-#endif /* INC_FSM_SYSTEM_H_ */
+#endif

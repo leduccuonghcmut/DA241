@@ -1,9 +1,3 @@
-/*
- * dht20.c
- *
- *  Created on: Oct 31, 2024
- *      Author: Duy
- */
 #include "dht20.h"
 #include "I2C-LCD.h"
 extern I2C_HandleTypeDef hi2c1;
@@ -100,11 +94,10 @@ void dht20_read(uint16_t* value){
 void dht20_output(){
 	dht20_read(value_x10);
 	//Display on the LCD
-//	sprintf(temp, "TEMP:  %d.%d %cC",value_x10[1]/10,value_x10[1]%10 ,0b11011111);
-//	sprintf(humid,"HUMID: %01d.%d %%   ",value_x10[0]/10,value_x10[0]%10);
-		sprintf(temp, "%d.%d ",value_x10[1]/10,value_x10[1]%10 );
-		sprintf(humid,"%01d.%d    ",value_x10[0]/10,value_x10[0]%10);
-
+	//sprintf(temp, "TEMP:  %d.%d %cC",value_x10[1]/10,value_x10[1]%10 ,0b11011111);
+	//sprintf(humid,"HUMID: %01d.%d %%   ",value_x10[0]/10,value_x10[0]%10);
+	sprintf(temp, "%d.%d ",value_x10[1]/10,value_x10[1]%10 );
+	sprintf(humid,"%01d.%d    ",value_x10[0]/10,value_x10[0]%10);
 
 	lcd_show_value();
 }

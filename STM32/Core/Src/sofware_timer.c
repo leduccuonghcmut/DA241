@@ -1,9 +1,3 @@
-/*
- * sofware_timer.c
- *
- *  Created on: Nov 1, 2024
- *      Author: Duy
- */
 #include "sofware_timer.h"
 
 #define timer_cycle 10

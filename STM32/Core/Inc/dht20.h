@@ -1,10 +1,3 @@
-/*
- * dht20.h
- *
- *  Created on: Oct 31, 2024
- *      Author: Duy
- */
-
 #ifndef INC_DHT20_H_
 #define INC_DHT20_H_
 #include "stm32f1xx_hal.h"
@@ -26,4 +19,4 @@ void dht20_start();
 
 void dht20_output();
 
-#endif /* INC_DHT20_H_ */
+#endif 

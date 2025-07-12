@@ -1,10 +1,3 @@
-/*
- * scheduler.c
- *
- *  Created on: Nov 25, 2024
- *      Author: DELL
- */
-
 #include "scheduler.h"
 
 SCH_Task tasks[SCH_TASKNUMBER];
